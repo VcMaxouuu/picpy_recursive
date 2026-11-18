@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Données et activations (volumineuses, régénérables avec les scripts)
+simulations/*/data/
+simulations/*/cached_activations/
+*.arrow
+*.npy
+*.pt
+
+# Système
+.DS_Store
+Thumbs.db

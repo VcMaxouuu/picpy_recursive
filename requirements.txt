@@ -1,0 +1,15 @@
+# Package picpy
+numpy
+scipy
+pandas
+scikit-learn
+matplotlib
+tqdm
+tqdm-joblib
+joblib
+array-api-compat
+torch            # optionnel pour picpy (calcul sur GPU), requis pour les simulations
+
+# Simulations sur les LLM
+transformers
+datasets
